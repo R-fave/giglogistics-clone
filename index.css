@@ -1,0 +1,429 @@
+body{
+    margin: 0px;
+}
+
+header{
+    margin: 0px;
+    width: 100%;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 3000;
+}
+
+.porto-div{
+    background-color: white;
+    padding: 1em 2em;
+    position: fixed;
+    top: 60px;
+    left: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px .8px black;
+}
+
+.chat-div > i{
+    font-size: 100px;
+    color: white;
+    position: relative;
+}
+
+.chat-div{
+    position: fixed;
+    
+    bottom: 5%;
+    right: 5%;
+}
+
+.chat-div > p{
+    position: absolute;
+    color: #d4333a;
+    font-size: 20px;
+    font-weight: bold;
+    top: 13px;
+    left: 10px;
+}
+
+
+header > .header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+
+header > div > .logo-img{
+    width: 70px;
+}
+
+header > div > .span-list{
+    display: flex;
+    gap: 1.5em;
+}
+
+.spanlist-span:hover{
+    color: #d4333a;
+}
+.signup-btn{
+    background-color: #d4333a;
+    color:whitesmoke;
+    padding: 1em 0.7em;
+    border-radius: 3px;
+}
+
+.section-div{
+    background-color: black;
+    color: whitesmoke;
+}
+
+section > .section-div{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    align-items: center;
+    padding: 9px 200px;
+}
+
+section > .section-div > img{
+    width: 120px;
+}
+
+section > .section-div > .learn-btn{
+    margin: 0px;
+    background-color: #d4333a;
+    color:whitesmoke;
+    padding: 0.6em 1.3em;
+    border-radius: 3px;
+}
+
+.section1-div{
+    background-image: url('./overlay.jpg');
+    padding: 10em 10em;
+    gap: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.section1-div > span{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.input-div{
+    background-color: white;
+    padding: .3em;
+    border-radius: 3px;
+    padding: .5em;
+    align-self: center;
+}
+
+.input-txt{
+    width: 300px;
+    padding: 1em 1.5em ;
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+}
+
+.input-btn{
+    background-color: #d4333a;
+    color: whitesmoke;
+    border: none;
+    padding: 1em 1.5em ;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.section2-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f3f4f6;
+}
+
+.section2-div > h1{
+    font-size: 40px;
+}
+
+.service-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services {
+    background-color: white;
+    border: 1px solid #D1D5DA;
+    max-width: 200px;
+    padding: 3em 1.5em;
+}
+
+.services > i{
+    font-size: 40px;
+}
+
+.services > p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.services > span{
+    font-size: 14px;
+    color: #bfbdbd;
+}
+
+.services:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.section3-div{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5em 10em;
+}
+
+.main{
+    font-size: 30px;
+    width: 320px;
+}
+
+.description-div{
+    display: flex;
+    gap: 1em;
+}
+
+.apple{
+    background-color: #d4333a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    padding: .5em 1em;
+}
+
+.apple > i{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.store-text > p{
+    margin: 0px;
+    font-size: 14px;
+}
+
+.store-text > span{
+    font-size: 20px;
+
+}
+
+.play{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    padding: .5em 1em;
+}
+
+.play > i{
+    font-size: 30px;
+    margin: 0px;
+}
+
+.section4-div{
+    padding: 5em 5em;
+    background-color: #F3F4F6;
+}
+
+.section4-div > p{
+    font-size: 30px;
+    width: 300px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.span{
+    
+    color: #d4333a;
+}
+
+.procedure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.procedure > div{
+    width: 400px;
+    margin-bottom: 2em;
+}
+
+.procedure > div > i{
+    font-size: 40px;
+}
+
+.procedure > div > p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.procedure > div > span{
+    font-size: 16px;
+}
+
+footer{
+    padding: 5em 10em;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer > div > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.align{
+    margin-left: 40px;
+}
+
+footer > div > ul{
+    list-style: none;
+    align-items: flex-end;
+}
+
+footer > div > ul > li{
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+footer > div > i{
+    margin-right: 1em;
+    font-size: 18px;
+}
+
+.app-img{
+    width: 50%;
+}
+
+@media (max-width:580px){
+body{
+    margin: 0px;
+}
+
+header > .header-div{
+    padding: 20px;
+}
+
+header > div > .span-list{
+    display: none;
+}
+
+section > .section-div{
+    padding: 20px;
+}
+
+.section1-div{
+    padding: 90px;
+}
+
+.input-txt{
+    width: 250px;
+}
+
+.input-btn{
+    padding: 10px;
+}
+
+.section1-div > span{
+    text-align: center;
+}
+
+.section2-div{
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.services{
+    max-width: 200px;
+}
+
+.section3-div{
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.section3-div > img{
+    width: 170px;
+}
+
+.main{
+    font-size: 30px;
+    width: 320px;
+}
+
+.apple{
+    gap: .5em;
+    padding: .5em .5em;
+}
+
+.store-text > p{
+display: none;
+}
+
+.section4-div{
+    padding: 1em 2em;
+    background-color: #F3F4F6;
+}
+
+.section4-div > p{
+    font-size: 50px;
+    width: 500px;
+
+}
+
+.procedure > div{
+    width: 550px;
+    margin-bottom: 2em;
+}
+
+.procedure > div > p{
+    font-size: 40px;
+}
+
+.procedure > div > span{
+    font-size: 25px;
+}
+
+footer{
+    padding: 1em 1em;
+    display: block;
+}
+
+footer > div{
+    display: none;
+}
+
+footer > p{
+    text-align: center;
+}
+}
