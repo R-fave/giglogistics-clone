@@ -64,6 +64,11 @@ header > div > .span-list{
 .spanlist-span:hover{
     color: #d4333a;
 }
+
+.spanlist-span{
+    cursor: pointer;
+}
+
 .signup-btn{
     background-color: #d4333a;
     color:whitesmoke;
