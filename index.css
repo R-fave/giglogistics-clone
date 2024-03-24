@@ -65,7 +65,7 @@ header > div > .span-list{
     color: #d4333a;
 }
 
-.spanlist-span{
+.spanlist-span,.signup-btn,.input-btn,.learn-btn{
     cursor: pointer;
 }
 
@@ -141,6 +141,7 @@ section > .section-div > .learn-btn{
     border-radius: 3px;
     font-size: 18px;
     font-weight: bold;
+    
 
 }
 
